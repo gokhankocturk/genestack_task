@@ -1,0 +1,12 @@
+name: genestack_task
+title: genestack_task
+username:
+account: gokhankocturk
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8638479
+bundleId: 6991331
+url: https://gokhankocturk.shinyapps.io/genestack_task/
+when: 1679475398.45964
+asMultiple: FALSE
+asStatic: FALSE

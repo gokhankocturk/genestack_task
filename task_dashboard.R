@@ -16,10 +16,10 @@ h2 {
   height: 380px; width: 190px; color: #F5F5DC; border: 2px solid coral; border-radius: 10px;
   font-size: 16px; top: 400px;
 }
-.menu {position: fixed; display: block; bottom: 30px; left: 0px; text-align: center;}
+.menu {position: fixed; display: block; top: 100px; left: 0px; text-align: center;}
 img {margin-bottom: 20px; bottom: 10px; left: 10px;}
 .skin-blue .sidebar-menu li a {color: #F5F5DC; font-family: Arial Black; font-size: 16px;}
-.main-sidebar {background-color: #101F2D !important; opacity: 0.8;}
+.main-sidebar {background-color: #101F2D !important; opacity: 0.9;}
 .main-header .logo {
   padding: 20px; text-align: center; height: 120px; background-color: #101F2D !important;
   color: white !important; font-weight: bold; font-size: 30px;
@@ -55,6 +55,7 @@ sidebar <- dashboardSidebar(
       background = "navy",
       solidHeader = FALSE,
       collapsible = FALSE,
+      height = 450,
       width = 12,
       h2(
         tags$i(tags$b("Importance of Biotechnology")),
